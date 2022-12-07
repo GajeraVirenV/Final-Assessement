@@ -1,0 +1,376 @@
+ <!--
+ * WEB222 – Final Assessment
+ *
+ * I declare that this assignment is my own work in accordance with
+ * Seneca Academic Policy. No part of this assignment has been
+ * copied manually or electronically from any other source
+ * (including web sites) or distributed to other students.
+ *
+ * Please update the following with your information:
+ *
+ *      Name:       Viren Vinodray Gajera
+ *      Student ID: 157103219
+ *      Date:       December 12, 2022
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS(Style Sheet) ===== -->
+    <link rel="stylesheet" href="./src/css/styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Viren Vinodray Gajera</title>
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+                <!-- //<i class="fa-duotone fa-bars"></i> -->
+            </div>
+
+            <div class="compant__name">
+                <a href="#" class="nav__logo">Viren</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                    <!-- //<i class="fa-solid fa-x"></i> -->
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Eduction</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="./src/images/main.jpg" alt="">
+                    </div>
+
+                    <h1 class="home__title">Viren Gajera</h1>
+                    <span class="home__profession">Frontend Developer</span>
+
+                    <div class="home__social">
+                        <a href="https://ca.linkedin.com/in/virengajera" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/GajeraVirenV" class="home__social-link"><i class='bx bxl-github'></i></a>
+                    </div>
+
+                    <a download="" class="button home__button" onclick="location.href='./src/resume/resume.docx'">Download Resume</a>
+                    <a contact="" href="#contact" class="button home__button">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <span class="section-subtitle">My Introduction</span>
+                <h2 class="section-title">About Me</h2>
+                
+                <div class="about__container bd-grid">
+                    <div class="about__data">
+                        <p class="about__description">Hi, I'm a frontend developer, passionate about creating and developing web interfaces, I have many years of experience in this area of work, with multiple quality projects.</p>
+                        <img src="./src/images/perfill.png" alt="" class="about__img">
+                    </div>
+
+                    <div>
+                        <div class="about__information">
+                            <h3 class="about__infromation-title">Basic Information</h3>
+    
+                            <div class="about__information_data">
+                                <table>
+                                    <tbody>
+                                      <tr>
+                                        <th>Name</th>
+                                        <td>Viren Gajera</td>
+                                      </tr>
+                                      <tr>
+                                        <th>Date</th>
+                                        <td>5th December, 2022</td>
+                                      </tr>
+                                      <tr>
+                                        <th>Course</th>
+                                        <td>Web Programming Principles</td>
+                                      </tr>
+                                      <tr>
+                                        <th>Section</th>
+                                        <td>NCC</td>
+                                      </tr>
+                                      <tr>
+                                        <th>Student ID</th>
+                                        <td>157103219</td>
+                                      </tr>
+                                      <tr>
+                                        <th>Instructor</th>
+                                        <td>Dr. Muath Alzghool</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                        </div>
+                    </div>  
+                    
+                    <div class="about__container bd-grid">
+                        <span class="section-subtitle">Honesty Statement</span>
+                        <p class="about__description">I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <span class="section-subtitle">Why Choose me</span>
+                <h2 class="section-title">My expertise Area</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills_content">
+                        <h3 class="skills_subtitle">Frontend</h3>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Html/css</span>
+                            <span class="skills__number">75%</span>
+                            <span class="skills__bar skills__html"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Javascript</span>
+                            <span class="skills__number">85%</span>
+                            <span class="skills__bar skills__js"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">React</span>
+                            <span class="skills__number">65%</span>
+                            <span class="skills__bar skills__react"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Angular</span>
+                            <span class="skills__number">75%</span>
+                            <span class="skills__bar skills__angular"></span>
+                        </div>
+                    </div>
+                    <div class="skills_content">
+                        <h3 class="skills_subtitle">Backend</h3>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Php</span>
+                            <span class="skills__number">70%</span>
+                            <span class="skills__bar skills__php"></span>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <span class="skills__name">Node js</span>
+                            <span class="skills__number">60%</span>
+                            <span class="skills__bar skills__node"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Firebase</span>
+                            <span class="skills__number">80%</span>
+                            <span class="skills__bar skills__firebase"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Python</span>
+                            <span class="skills__number">55%</span>
+                            <span class="skills__bar skills__python"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_content">
+                        <h3 class="skills_subtitle">Extra Languages</h3>
+
+                        <div class="skills__data">
+                            <span class="skills__name">C</span>
+                            <span class="skills__number">80%</span>
+                            <span class="skills__bar skills__c"></span>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <span class="skills__name">C++</span>
+                            <span class="skills__number">70%</span>
+                            <span class="skills__bar skills__cpp"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">SQL</span>
+                            <span class="skills__number">75%</span>
+                            <span class="skills__bar skills__sql"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== EDUCATION =====-->
+            <section class="education section">
+                <span class="section-subtitle">Qualification</span>
+                <h2 class="section-title">My Education</h2>
+
+                <div class="education__container bd-grid">
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2018 - 2020</h3>
+                            <span class="education__university">KAUSHAL VIDYABHAVAN</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">Higher Secondary School</h3>
+                        </div>
+                    </div>
+                
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2022 - 2024</h3>
+                            <span class="education__university">Seneca College</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">Advance Diploma</h3>
+                            <span class="education__specialty">Computer Programming and Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <span class="section-subtitle">Contact Me</span>
+                <h2 class="section-title">Get In Touch</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form" id="form">
+                        <div>
+                            <div>
+                                <label for="Name">Name</label><br>
+                                <input type="text" placeholder="Name" id="name" class="contact__input"  required><br>
+                                <div class="error"></div>
+                            </div>
+                            <div>
+                                <label for="email">Email</label><br>
+                                <input type="email" placeholder="Email" id="email" class="contact__input" ><br>
+                                <div class="error"></div>
+                            </div>
+                            <div>
+                                <label for="streetaddress">Street Address</label><br>
+                                <input type="text" placeholder="Street Address" id="address" class="contact__input" ><br>
+                                <div class="error"></div>
+                            </div>
+                            <div>
+                                <label for="city">City</label><br>
+                                <input type="text" placeholder="City" id="city" class="contact__input" ><br>
+                                <div class="error"></div>
+                            </div>
+                            <label for="province">Province</label><br>
+                            <input placeholder="Province" list="provinces" id="province" class="contact__input"/><br>
+                            <datalist id="provinces">
+                            <option value="Alberta" >
+                            <option value="British Columbia" >
+                            <option value="Manitoba" >
+                            <option value="Newfoundland and Labrador" >
+                            <option value="Northwest Territories" >
+                            <option value="Nunavut" >
+                            <option value="New Brunswick" >
+                            <option value="Nova Scotia" >
+                            <option value="Ontario" >
+                            <option value="Prince Edward Island" >
+                            <option value="Quebec" >
+                            <option value="Saskatchewan" >
+                            <option value="Yukon" >
+                            </datalist>
+
+                            <label for="postal">Postal Code</label><br>
+                            <input placeholder="a1x 1x1" id="postal" class="contact__input"
+                            pattern="^[ABCEGHJ-NPRSTVXYabceghj-nprstvxy]\d[ABCEGHJ-NPRSTV-Zabceghj-nprstv-z][ -]?\d[ABCEGHJ-NPRSTV-Zabceghj-nprstv-z]\d$"
+                            ><br>
+
+                            <label for="about">What is this about?</label><br>
+                            
+                            <span>
+                                <input id="job" type="radio" value="job" name="about" onclick="showMessageBox(1) ">
+                                <label for="question">Job Offer</label>
+                            </span>
+                            <span>
+                                <input id="school" type="radio" value="school" name="about" onclick="showMessageBox(1)">ari
+                                <label for="comment">School</label>
+                            </span>
+                            <span>
+                                <input id="other" type="radio" value="other" name="about" checked onclick="showMessageBox(0)">
+                                <label for="other">Other</label>
+                            </span>
+                            
+                            <div>
+                                <div id="messageBox">
+                                <br><label for="text">Message</label><br>
+                                <textarea name="message" placeholder="Message" id="message" rows="6" class="contact__input"></textarea>
+                                <div class="error"></div>
+                            </div>
+                            
+                           <div class="contact__form">
+                                <button type="submit" value="Send Message" id="submit" class="button contact__input" onclick="openPopUp()">Send Message</button>
+                                <div class="contact__popup" id="popup">
+                                    <img src="./src/images/green_mark.png" >
+                                    <h2>Thank you!</h2>
+                                    <p>Your message has been successfully submitted. Thanks!</p>
+                                    <button type="button" onclick="closePopUp()">OK</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+    </main>
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer section">
+        <div class="footer_container bd-grid">
+            <h1 class="footer__title">Viren Gajera</h1>
+            <p class="footer_description">I am Viren and this is my personal website, consult me here.</p>
+
+            <div class="footer__social">
+                <a href="#" class="footer__link"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="footer__link"><i class="bx bxl-instagram"></i></a>
+            </div>
+
+            <p class="footer__copy">All ©Copyrights reserved by Viren Gajera since 2022</p>
+        </div>
+    </footer>
+    
+    <!-- ===== MAIN JS ===== -->
+    <script src="./src/js/main.js"></script>
+    
+    
+    <!-- ===== ===== -->
+</body>
+</html>
